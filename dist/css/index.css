@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 html, body {
@@ -17,11 +17,11 @@ html, body {
     padding: 0 auto;
 }
 .content {
-    padding: 100px 0 0 0;
+    padding: 100px 1em;
 }
 .content__text {
     font-size: 15px;
-    line-height: 20px;
+    line-height: initial;
 }
 .content__text p {
     margin-bottom: 20px;
@@ -30,12 +30,29 @@ html, body {
 .main__content{ 
     margin-top: -25px;
 }
-
 .main__image {
     max-width: 100%;
 }
-
-
+.title__about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1em;
+}
+.title__about h3 {
+    border-bottom: 1px solid black;
+    padding: 3px 1em;
+}
+.about__list {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+.about__list li {
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+}
 @media (max-width: 767px) {
     body.lock {
         overflow: hidden;
