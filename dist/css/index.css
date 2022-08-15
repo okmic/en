@@ -2,13 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: justify;
+
 }
 
 html, body {
     height: 100%;
     max-width: 100vw;
-    background-color: #e4dcdc;
+    background-color: #ffffff;
 }
 
 .container {
@@ -19,13 +21,6 @@ html, body {
 .content {
     padding: 100px 1em;
 }
-.content__text {
-    font-size: 15px;
-    line-height: initial;
-}
-.content__text p {
-    margin-bottom: 20px;
-}
 
 .main__content{ 
     margin-top: -25px;
@@ -33,25 +28,43 @@ html, body {
 .main__image {
     max-width: 100%;
 }
+.content__about {
+        margin-top: -5px;
+        padding: 1em;
+        background: linear-gradient(90deg, #f5f5dc, #ffffff);
+    }
+    
+.about__description {
+    width: 100%;
+    line-height: 25px;
+}
+
 .title__about {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 1em;
 }
 .title__about h3 {
-    border-bottom: 1px solid black;
     padding: 3px 1em;
+    border-bottom: 1px solid #000;
 }
 .about__list {
     display: flex;
     flex-direction: column;
-    padding: 1em;
+    padding: 1em 0;
 }
 .about__list li {
+    margin-top: 9px;
     display: flex;
     align-items: center;
-    font-size: 21px;
+
+}
+.about__list span {
+    margin-left: 5px;
+}
+.about__list img {
+    max-width: 40px;
 }
 @media (max-width: 767px) {
     body.lock {
