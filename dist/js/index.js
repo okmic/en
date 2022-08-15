@@ -13,27 +13,26 @@ for (let anchor of anchors) {
 
 //Burger menu
 $(document).ready(function() {
-
     $('.header__burger').click(function(event) {
         $('.header__burger, .header__menu').toggleClass('active')
     })
-    $('.header__link').click(function(event) {
+    $('.close__menu').click(function(event) {
         $('.header__burger, .header__menu').toggleClass('active')
     })
 })
 
 //slider
-
 $(function() {
     $('.rev_slider').slick({
         arrows: true,
         dots: true,
         autoplay: true,
+        autoplaySpeed: 5000,
         slidesToShow: 2,
         slidesToScroll: 2,
         responsive: [
             {
-              breakpoint: 875,
+              breakpoint: 1200,
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,

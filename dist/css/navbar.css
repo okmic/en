@@ -1,18 +1,20 @@
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 5px 0;
+    z-index: 50;
+}
+
 .logo{
+    margin-top: 5px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     background-color: #fff;
 }
 
-.header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    padding: 0 0;
-    z-index: 50;
-}
 .header:before {
     content: '';
     position: absolute;
