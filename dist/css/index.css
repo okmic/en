@@ -67,11 +67,41 @@ html, body {
 .about__list img {
     max-width: 40px;
 }
+
+.contact__yandex__zone {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact__yandex__zone div{
+    width: 95%;
+    box-shadow: rgb(59, 174, 137) 1px 1px 7px;
+    padding: 3px;
+}
+iframe {
+    width: 100%;
+    height: 800px;
+    border: none;
+}
+.yandex__rewers, .yandex__map{
+    width:45%;
+    height: 800px;
+    overflow:hidden;
+    position:relative;
+    border: none;
+}
 @media (max-width: 767px) {
     body.lock {
         overflow: hidden;
     }
     .content {
         padding: 70px 0 0 0;
+    }
+    .contact__yandex__zone {
+        flex-direction: column;
+    }
+    .yandex__rewers, .yandex__map, iframe {
+        max-height: 70vh;
     }
 }

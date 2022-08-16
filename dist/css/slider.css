@@ -35,13 +35,13 @@
     position: absolute;
     right: 5px;
     z-index: 50;
-    color: brown;
+    color: rgb(59, 174, 137);
 }
 .slick-prev:before {
     position: absolute;
     left: 3px;
     z-index: 50;
-    color: brown;
+    color: rgb(59, 174, 137);
 }
 
 .img__temps {
