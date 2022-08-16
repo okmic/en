@@ -118,7 +118,7 @@
         width: 100%;
         height: 100%;
         overflow: auto;
-        background-color: rgb(59, 174, 137);
+        background-color: rgba(59, 174, 138, 0.95);
         padding: 100px 10px 20px 10px;
         transition: all 0.3s ease 0s;
     }
