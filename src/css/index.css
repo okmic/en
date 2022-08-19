@@ -116,17 +116,3 @@ iframe {
     position:relative;
     border: none;
 }
-@media (max-width: 767px) {
-    body.lock {
-        overflow: hidden;
-    }
-    .content {
-        padding: 70px 0 0 0;
-    }
-    .contact__yandex__zone {
-        flex-direction: column;
-    }
-    .yandex__rewers, .yandex__map, iframe {
-        max-height: 70vh;
-    }
-}

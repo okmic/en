@@ -48,8 +48,3 @@
     max-width: 550px;
 }
 
-@media (max-width: 767px) {
-    .img__temps {
-        max-width: 90vw;
-    }
-}
