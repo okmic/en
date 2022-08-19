@@ -6,6 +6,16 @@
     text-align: justify;
 
 }
+::-webkit-scrollbar {
+    width: 11px; /* ширина для вертикального скролла */
+    height: 5px; /* высота для горизонтального скролла */
+    background-color: #bbbbbb;
+}
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+    background-color: #83b3ce;
+    border-radius: 16em;
+}
 
 html, body {
     height: 100%;
@@ -30,7 +40,7 @@ html, body {
     max-width: 100%;
 }
 .content__about {
-    color: rgb(107, 58, 33);
+    color: rgb(31, 29, 28);
     margin-top: -9px;
     padding: 1em;
     background: linear-gradient(90deg, #b9deed, #efefef);
@@ -42,7 +52,6 @@ html, body {
 }
 
 .title__about {
-    color: #83b3ce;
     display: flex;
     flex-direction: column;
     align-items: center;

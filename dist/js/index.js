@@ -26,8 +26,6 @@ $(function() {
     $('.rev_slider').slick({
         arrows: true,
         dots: true,
-        autoplay: true,
-        autoplaySpeed: 5000,
         slidesToShow: 2,
         slidesToScroll: 2,
         responsive: [
