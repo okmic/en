@@ -24,6 +24,10 @@ html, body {
     background-color: #ffffff;
 }
 
+h1 {
+    font-size: 20px;
+}
+
 .container {
     max-width: 1180px;
     margin: 0 auto;
@@ -57,7 +61,7 @@ html, body {
     align-items: center;
     padding: 1em;
 }
-.title__about h3 {
+.title__about h1 {
     padding: 3px 1em;
 }
 .about__list {
